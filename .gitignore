@@ -1,0 +1,14 @@
+# Exclude macOS system files
+.DS_Store
+**/.DS_Store
+
+# Exclude part files from split-join tool
+*.part*
+
+# Exclude encrypted files
+*.enc
+
+# Exclude binary files
+/filetool
+/split-join/split-join
+/encrypt-decrypt/encrypt-decrypt
